@@ -1,0 +1,29 @@
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--secondary-black);
+  color: var(--white);
+  .container {
+    width: 95%;
+    height: 90%;
+    display: flex;
+
+    .sidebar {
+      width: 230px;
+      border-right: 2px solid var(--primary-black);
+    }
+
+    .mainContainer {
+      width: 100%;
+      padding-left: 20px;
+
+      .topbar {
+        height: 80px;
+      }
+      main {
+        width: 100%;
+        height: calc(100% - 80px);
+      }
+    }
+  }
+}

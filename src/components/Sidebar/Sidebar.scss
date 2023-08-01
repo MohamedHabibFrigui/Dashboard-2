@@ -1,0 +1,22 @@
+.sidebar {
+  width: 15vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    img {
+      margin-right: 10px;
+    }
+    h2 {
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+}

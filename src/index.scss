@@ -1,11 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap");
+
+:root {
+  --primary-black: #303030;
+  --secondary-black: #1d1d1d;
+  --white: #ffffff;
+  --gray: #bbbbbb;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 a {
   text-decoration: none;
 }
 li {
   list-style: none;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
