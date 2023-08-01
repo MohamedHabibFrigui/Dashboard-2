@@ -1,4 +1,9 @@
 import { CgLoadbarSound } from "react-icons/cg";
+import { FiShoppingBag, FiBook, FiHelpCircle } from "react-icons/fi";
+import { GoPerson } from "react-icons/go";
+import { RiSettingsLine } from "react-icons/ri";
+import { AiOutlineDollarCircle } from "react-icons/ai";
+import { LuTicket } from "react-icons/lu";
 
 export const menu = [
   {
@@ -11,42 +16,42 @@ export const menu = [
     id: 2,
     title: "Products",
     url: "/products",
-    icon: <CgLoadbarSound />,
+    icon: <FiShoppingBag />,
   },
   {
     id: 3,
     title: "Customers",
     url: "/customers",
-    icon: <CgLoadbarSound />,
+    icon: <GoPerson />,
   },
   {
     id: 4,
     title: "Orders",
     url: "/orders",
-    icon: <CgLoadbarSound />,
+    icon: <FiBook />,
   },
   {
     id: 5,
     title: "Settings",
     url: "/settings",
-    icon: <CgLoadbarSound />,
+    icon: <RiSettingsLine />,
   },
   {
     id: 6,
     title: "Payments",
     url: "/payments",
-    icon: <CgLoadbarSound />,
+    icon: <AiOutlineDollarCircle />,
   },
   {
     id: 7,
     title: "Tickets",
     url: "/tickets",
-    icon: <CgLoadbarSound />,
+    icon: <LuTicket />,
   },
   {
     id: 8,
     title: "FAQs",
     url: "/faqs",
-    icon: <CgLoadbarSound />,
+    icon: <FiHelpCircle />,
   },
 ];

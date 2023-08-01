@@ -5,6 +5,8 @@
   --secondary-black: #1d1d1d;
   --white: #ffffff;
   --gray: #bbbbbb;
+  --main-green: #d3f56a;
+  --main-transition: all 0.3s ease;
 }
 * {
   margin: 0;
@@ -14,6 +16,7 @@
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 li {
   list-style: none;
