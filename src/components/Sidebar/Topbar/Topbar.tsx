@@ -1,6 +1,5 @@
 import "./Topbar.scss";
 import { GoBell, GoSearch } from "react-icons/go";
-import { CiSearch } from "react-icons/ci";
 
 const Topbar = () => {
   return (
