@@ -1,0 +1,81 @@
+.dashboardCard {
+  width: 25%;
+  height: 100%;
+  padding: 20px;
+  background-color: var(--primary-black);
+  transition: var(--main-transition);
+  cursor: pointer;
+
+  &:not(:last-of-type) {
+    border-right: 1px solid var(--border-black);
+  }
+  &:hover {
+    background-color: var(--main-green) !important;
+    background: url("/public/Polygon.svg") 100% 30% / 50% 50% no-repeat,
+      url("/public/Polygon.svg") 100% 80% / 30% 30% no-repeat;
+
+    header {
+      .iconContainer {
+        background-color: var(--secondary-black);
+      }
+      .title {
+        color: var(--secondary-black);
+      }
+    }
+    .amount {
+      color: var(--secondary-black);
+    }
+    .stats {
+      color: #607916;
+
+      .percentage {
+        color: #607916 !important;
+      }
+    }
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .iconContainer {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background-color: var(--border-black);
+      margin-right: 10px;
+
+      svg {
+        font-size: 18px;
+      }
+    }
+    .title {
+      color: var(--gray);
+      font-size: 18px;
+    }
+  }
+  .amount {
+    margin: 20px 0 10px;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .stats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 15px;
+    color: #7d7d7d;
+
+    .percentage {
+      margin-right: 15px;
+
+      &.pos {
+        color: var(--main-green);
+      }
+      &.neg {
+        color: var(--main-red);
+      }
+    }
+  }
+}

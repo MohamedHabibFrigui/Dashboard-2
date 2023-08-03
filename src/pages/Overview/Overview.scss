@@ -1,2 +1,30 @@
 .overview {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 15px;
+
+  .cards {
+    grid-area: 1 / 1 / 2 / 5;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .lineChart {
+    grid-area: 2 / 1 / 4 / 4;
+    background-color: rgba(0, 0, 255, 0.227);
+  }
+  .donutChart {
+    grid-area: 2 / 4 / 4 / 5;
+    background-color: rgba(0, 128, 0, 0.26);
+  }
+  .topProducts {
+    grid-area: 4 / 1 / 5 / 4;
+    background-color: rgba(255, 255, 0, 0.277);
+  }
+  .upgrade {
+    grid-area: 4 / 4 / 5 / 5;
+    background-color: rgba(255, 192, 203, 0.337);
+  }
 }
