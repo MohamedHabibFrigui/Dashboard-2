@@ -1,5 +1,7 @@
 import Button from "../../components/Button/Button";
 import DashboardCard from "../../components/DashboardCard/DashboardCard";
+import DonutChart from "../../components/DonutChart/DonutChart";
+import LineChart from "../../components/LineChart/LineChart";
 import TopProducts from "../../components/TopProducts/TopProducts";
 import { cards } from "../../data";
 import "./Overview.scss";
@@ -20,8 +22,12 @@ const Overview = () => {
           />
         ))}
       </div>
-      <div className="lineChart">lineChart</div>
-      <div className="donutChart">donutChart</div>
+      <div className="lineChart">
+        <LineChart />
+      </div>
+      <div className="donutChart">
+        <DonutChart />
+      </div>
       <div className="topProducts">
         <TopProducts />
       </div>

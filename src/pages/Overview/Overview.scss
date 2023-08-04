@@ -13,11 +13,12 @@
   }
   .lineChart {
     grid-area: 2 / 1 / 4 / 4;
-    background-color: rgba(0, 0, 255, 0.227);
+    background-color: var(--primary-black);
   }
   .donutChart {
     grid-area: 2 / 4 / 4 / 5;
-    background-color: rgba(0, 128, 0, 0.26);
+    background-color: var(--primary-black);
+    padding: 20px;
   }
   .topProducts {
     grid-area: 4 / 1 / 5 / 4;

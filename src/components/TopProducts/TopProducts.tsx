@@ -20,23 +20,25 @@ const TopProducts = () => {
         </div>
       </header>
       <table>
-        <tr>
-          <th>Product name</th>
-          <th>Order ID</th>
-          <th>Price</th>
-          <th>Sold</th>
-          <th>Sales</th>
-        </tr>
-        <tr>
-          <td className="productName">
-            <MdComputer className="computerIcon" />
-            <span>MacBook Air AAPL</span>
-          </td>
-          <td>#719261</td>
-          <td>*1,846</td>
-          <td>9,971</td>
-          <td>$15,308,94</td>
-        </tr>
+        <tbody>
+          <tr>
+            <th>Product name</th>
+            <th>Order ID</th>
+            <th>Price</th>
+            <th>Sold</th>
+            <th>Sales</th>
+          </tr>
+          <tr>
+            <td className="productName">
+              <MdComputer className="computerIcon" />
+              <span>MacBook Air AAPL</span>
+            </td>
+            <td>#719261</td>
+            <td>$1,846</td>
+            <td>9,971</td>
+            <td>$15,308,94</td>
+          </tr>
+        </tbody>
       </table>
     </div>
   );

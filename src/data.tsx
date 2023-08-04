@@ -96,3 +96,22 @@ export const cards = [
     positive: false,
   },
 ];
+
+export const linechartData = {
+  revenueData: [140, 150, 280, 260, 320, 350, 200, 220, 150, 250, 240, 260],
+  ordersData: [120, 150, 130, 140, 180, 220, 210, 200, 180, 160, 190, 250],
+  months: [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ],
+};

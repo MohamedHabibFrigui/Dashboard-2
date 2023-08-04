@@ -1,0 +1,77 @@
+.donutChartContainer {
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .doughnutContainer {
+    position: relative;
+
+    .doughnut {
+      width: 160px !important;
+      height: 160px !important;
+      margin: auto;
+    }
+    span {
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+  .bottom {
+    margin-top: 20px;
+    align-items: flex-end;
+
+    .labels {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-size: 18px;
+        color: #7d7d7d;
+        margin-left: 30px;
+        position: relative;
+
+        &::before {
+          content: "";
+          width: 8px;
+          height: 8px;
+          border-radius: 50%;
+          background-color: var(--main-green);
+          position: absolute;
+          left: -15px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &.electronics::before {
+          background-color: var(--main-red);
+        }
+        &.laptops::before {
+          background-color: #2a4b52;
+        }
+      }
+    }
+    button {
+      color: var(--white);
+      font-size: 18px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: var(--main-transition);
+
+      &:hover {
+        color: var(--main-green);
+      }
+      &:hover .arrowIcon {
+        transform: scale(1.1);
+      }
+
+      .arrowIcon {
+        margin-left: 10px;
+      }
+    }
+  }
+}
